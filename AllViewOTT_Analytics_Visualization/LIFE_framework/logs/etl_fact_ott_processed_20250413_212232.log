@@ -1,0 +1,3 @@
+2025-04-13 21:22:33,141 - INFO - Custom schema applied: {'show_id': 'str', 'type': 'str', 'title': 'str', 'director': 'str', 'cast': 'str', 'country': 'str', 'date_added': 'datetime', 'release_year': 'int', 'duration_min': 'int', 'duration_season': 'int', 'rating': 'str', 'categories': 'str', 'description': 'str'}
+2025-04-13 21:22:36,241 - INFO - Successfully inserted 22998 rows into processed.fact_ott
+2025-04-13 21:22:36,244 - INFO - First-time SCD Type 2 load completed for processed.fact_ott

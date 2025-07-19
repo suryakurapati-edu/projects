@@ -1,0 +1,5 @@
+2025-04-13 21:10:07,195 - INFO - Custom schema applied: {'show_id': 'str', 'type': 'str', 'title': 'str', 'director': 'str', 'cast': 'str', 'country': 'str', 'date_added': 'datetime', 'release_year': 'int', 'duration_min': 'int', 'duration_season': 'int', 'rating': 'str', 'categories': 'str', 'description': 'str'}
+2025-04-13 21:10:07,195 - INFO - CSV file read with schema: data/hulu.csv
+2025-04-13 21:10:07,261 - INFO - Successfully truncated table stage.hulu
+2025-04-13 21:10:07,641 - INFO - Successfully inserted 3073 rows into stage.hulu
+2025-04-13 21:10:07,641 - INFO - Stage pipeline completed successfully.

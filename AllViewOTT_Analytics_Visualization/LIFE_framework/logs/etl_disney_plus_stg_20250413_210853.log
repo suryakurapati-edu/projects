@@ -1,0 +1,8 @@
+2025-04-13 21:08:53,683 - INFO - Custom schema applied: {'show_id': 'str', 'type': 'str', 'title': 'str', 'director': 'str', 'cast': 'str', 'country': 'str', 'date_added': 'datetime', 'release_year': 'int', 'duration_min': 'int', 'duration_season': 'int', 'rating': 'str', 'categories': 'str', 'description': 'str'}
+2025-04-13 21:08:53,684 - INFO - Reading JSON file: data/disney_plus.json
+2025-04-13 21:08:53,691 - INFO - Read 1450 rows from JSON file: data/disney_plus.json
+2025-04-13 21:08:53,742 - INFO - Inserted 1450 clean records into MongoDB collection: disney_plus
+2025-04-13 21:08:53,743 - INFO - Reading data from MongoDB source.
+2025-04-13 21:08:53,776 - INFO - Successfully truncated table stage.disney_plus
+2025-04-13 21:08:53,945 - INFO - Successfully inserted 1450 rows into stage.disney_plus
+2025-04-13 21:08:53,946 - INFO - Stage pipeline completed successfully.

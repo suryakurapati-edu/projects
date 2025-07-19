@@ -1,0 +1,20 @@
+CREATE TABLE project_analytics.processed.fact_ott (
+    fact_ott_sk     UUID PRIMARY KEY,
+    stage_layer_sk  UUID,
+    ott_platform    VARCHAR NOT NULL,
+    type            VARCHAR,
+    title           VARCHAR,
+    director        VARCHAR,
+    "cast"            VARCHAR,
+    country         VARCHAR,
+    date_added      TIMESTAMP,
+    release_year    INT,
+    duration_min    INT,
+    num_seasons     INT,
+    rating          VARCHAR,
+    categories      VARCHAR,
+    description     VARCHAR,
+    update_timestamp  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    effective_from  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    effective_to    TIMESTAMP
+);

@@ -1,0 +1,5 @@
+2025-04-13 21:02:26,778 - INFO - Custom schema applied: {'show_id': 'str', 'type': 'str', 'title': 'str', 'director': 'str', 'cast': 'str', 'country': 'str', 'date_added': 'datetime', 'release_year': 'int', 'duration_min': 'int', 'duration_season': 'int', 'rating': 'str', 'categories': 'str', 'description': 'str'}
+2025-04-13 21:02:26,779 - INFO - CSV file read with schema: data/amazon_prime.csv
+2025-04-13 21:02:26,965 - INFO - Successfully truncated table stage.amazon_prime
+2025-04-13 21:02:28,028 - INFO - Successfully inserted 9668 rows into stage.amazon_prime
+2025-04-13 21:02:28,029 - INFO - Stage pipeline completed successfully.

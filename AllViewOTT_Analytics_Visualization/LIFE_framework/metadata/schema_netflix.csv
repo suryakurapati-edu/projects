@@ -1,0 +1,14 @@
+column_name,data_type
+show_id,str
+type,str
+title,str
+director,str
+cast,str
+country,str
+date_added,datetime
+release_year,int
+duration_min,int
+duration_season,int
+rating,str
+categories,str
+description,str

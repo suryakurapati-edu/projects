@@ -1,0 +1,5 @@
+2025-04-13 21:13:52,930 - INFO - Custom schema applied: {'show_id': 'str', 'type': 'str', 'title': 'str', 'director': 'str', 'cast': 'str', 'country': 'str', 'date_added': 'datetime', 'release_year': 'int', 'duration_min': 'int', 'duration_season': 'int', 'rating': 'str', 'categories': 'str', 'description': 'str'}
+2025-04-13 21:13:52,931 - INFO - CSV file read with schema: data/netflix.csv
+2025-04-13 21:13:53,056 - INFO - Successfully truncated table stage.netflix
+2025-04-13 21:13:54,043 - INFO - Successfully inserted 8807 rows into stage.netflix
+2025-04-13 21:13:54,043 - INFO - Stage pipeline completed successfully.
