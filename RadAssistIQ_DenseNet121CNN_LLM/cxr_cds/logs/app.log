@@ -1,0 +1,467 @@
+2025-10-12 21:18:41.649 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-12 21:18:41.649 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-12 21:18:41.649 | INFO     | app.models.vision:__init__:23 - Initializing DenseNet121 for vision model.
+2025-10-12 21:18:41.780 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-12 21:18:41.784 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-12 21:18:41.784 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-12 21:18:41.784 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-12 21:18:45.653 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-12 21:18:45.755 | INFO     | app.models.vision:predict:55 - Vision model successfully generated predictions.
+2025-10-12 21:18:45.756 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-12 22:17:28.190 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-12 22:17:28.190 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-12 22:17:28.191 | INFO     | app.models.vision:__init__:23 - Initializing DenseNet121 for vision model.
+2025-10-12 22:17:28.336 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-12 22:17:28.435 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-12 22:17:28.435 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-12 22:17:28.435 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-12 22:17:32.278 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-12 22:17:32.382 | INFO     | app.models.vision:predict:55 - Vision model successfully generated predictions.
+2025-10-12 22:17:32.383 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-12 22:19:34.133 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-12 22:19:34.133 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-12 22:19:34.133 | INFO     | app.models.vision:__init__:23 - Initializing DenseNet121 for vision model.
+2025-10-12 22:19:34.266 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-12 22:19:34.279 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-12 22:19:34.279 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-12 22:19:34.279 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-12 22:19:36.291 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-12 22:19:36.403 | INFO     | app.models.vision:predict:55 - Vision model successfully generated predictions.
+2025-10-12 22:19:36.403 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-19 13:43:05.913 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-19 13:43:05.913 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-19 13:43:05.913 | INFO     | app.models.vision:__init__:23 - Initializing DenseNet121 for vision model.
+2025-10-19 13:43:06.064 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-19 13:43:06.096 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-19 13:43:06.096 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-19 13:43:06.096 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-19 13:43:09.769 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-19 13:43:09.869 | INFO     | app.models.vision:predict:55 - Vision model successfully generated predictions.
+2025-10-19 13:43:09.869 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-20 12:16:44.473 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:16:44.473 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:17:14.382 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:17:14.382 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:17:14.541 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:17:14.567 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:17:14.567 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:17:14.567 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:18:08.087 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-20 12:18:08.088 | ERROR    | app.main:analyze_xray:27 - Analysis failed
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 4
+               │     └ 7
+               └ <function _main at 0x102f8cb80>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 4
+           │    └ <function BaseProcess._bootstrap at 0x102d36ef0>
+           └ <SpawnProcess name='SpawnProcess-1' parent=89074 started>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x102d36560>
+    └ <SpawnProcess name='SpawnProcess-1' parent=89074 started>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x102f96a70>, 'target': <bound method Server.run of <uvicorn.server.Server object...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-1' parent=89074 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-1' parent=89074 started>
+    │    └ <function subprocess_started at 0x103711e10>
+    └ <SpawnProcess name='SpawnProcess-1' parent=89074 started>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 78, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=3, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x102f96ad0>>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=3, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x103710ee0>
+           │       │   └ <uvicorn.server.Server object at 0x102f96ad0>
+           │       └ <function run at 0x102fec160>
+           └ <module 'asyncio' from '/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/__init__.py'>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x10369b7d0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x10345e290>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x10345e200>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x10345fd00>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x103177520>
+    └ <Handle <TaskStepMethWrapper object at 0x140077130>()>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x140077130>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x140077130>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x140077130>()>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x1037711e0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x103771360>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x1037711e0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x1400756f0>
+          └ <fastapi.applications.FastAPI object at 0x103771360>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x1400b9ab0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x140077640>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x1400756f0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x1400b9ab0>
+          │                            │    │    │     │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x1400776d0>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x12692ce20>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x140077640>
+          └ <function wrap_app_handling_exceptions at 0x1048bc8b0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1400b97e0>
+          │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x12692ce20>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1400b97e0>
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x12692ce20>>
+          └ <fastapi.routing.APIRouter object at 0x12692ce20>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1400b97e0>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x1048bdd80>
+          └ APIRoute(path='/analyze-xray', name='analyze_xray', methods=['POST'])
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1400b97e0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x1400bbeb0>
+          └ APIRoute(path='/analyze-xray', name='analyze_xray', methods=['POST'])
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1400b97e0>
+          │                            │    │        │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x140075a80>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x1400b96c0>
+          └ <function wrap_app_handling_exceptions at 0x1048bc8b0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1400b9990>
+          │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x140077250>>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x1400b96c0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x140075a80>
+                     └ <function get_request_handler.<locals>.app at 0x1400bbe20>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x1048bec20>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': AnalyzeRequest(xray_id='person16_virus_47', query='Diagnose the Xray')}
+                 │         └ <function analyze_xray at 0x1400b9750>
+                 └ <fastapi.dependencies.models.Dependant object at 0x140075210>
+
+> File "/Users/suryakurapati/Desktop/NCI/NCI-Notes/Domain Applications/Assignment/cxr_cds/app/main.py", line 25, in analyze_xray
+    findings, reasoning = analyzer.analyze(image, query)
+                          │        │       │      └ 'Diagnose the Xray'
+                          │        │       └ <PIL.JpegImagePlugin.JpegImageFile image mode=L size=1582x1333 at 0x1400762C0>
+                          │        └ <function AnalyzerService.analyze at 0x137e9a7a0>
+                          └ <app.services.analyzer.AnalyzerService object at 0x137e5b9a0>
+
+  File "/Users/suryakurapati/Desktop/NCI/NCI-Notes/Domain Applications/Assignment/cxr_cds/app/services/analyzer.py", line 39, in analyze
+    raw = self.vision_model.predict(image)
+          │    │            │       └ <PIL.JpegImagePlugin.JpegImageFile image mode=L size=1582x1333 at 0x1400762C0>
+          │    │            └ <function RealVisionModel.predict at 0x13279e320>
+          │    └ <app.models.vision.RealVisionModel object at 0x137e5b5b0>
+          └ <app.services.analyzer.AnalyzerService object at 0x137e5b9a0>
+
+  File "/Users/suryakurapati/Desktop/NCI/NCI-Notes/Domain Applications/Assignment/cxr_cds/app/models/vision.py", line 83, in predict
+    image = Image.open(image_path).convert("RGB")
+            │     │    └ <PIL.JpegImagePlugin.JpegImageFile image mode=L size=1582x1333 at 0x1400762C0>
+            │     └ <function open at 0x104e77760>
+            └ <module 'PIL.Image' from '/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/PIL/Image.py'>
+
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/PIL/Image.py", line 3256, in open
+    prefix = fp.read(16)
+             └ <PIL.JpegImagePlugin.JpegImageFile image mode=L size=1582x1333 at 0x1400762C0>
+
+AttributeError: 'JpegImageFile' object has no attribute 'read'
+2025-10-20 12:18:58.100 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:18:58.100 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:18:58.260 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:18:58.296 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:18:58.296 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:18:58.296 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:25:47.369 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:25:47.369 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:25:47.645 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:25:47.676 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:25:47.677 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:25:47.677 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:25:50.147 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:25:50.147 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:25:50.267 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:25:50.285 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:25:50.285 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:25:50.285 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:25:51.659 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:25:51.659 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:25:51.784 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:25:51.786 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:25:51.786 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:25:51.787 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:25:57.178 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-20 12:25:57.179 | ERROR    | app.main:analyze_xray:27 - Analysis failed
+Traceback (most recent call last):
+
+  File "<string>", line 1, in <module>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+               │     │   └ 4
+               │     └ 7
+               └ <function _main at 0x102948b80>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/spawn.py", line 129, in _main
+    return self._bootstrap(parent_sentinel)
+           │    │          └ 4
+           │    └ <function BaseProcess._bootstrap at 0x1026f2ef0>
+           └ <SpawnProcess name='SpawnProcess-5' parent=89074 started>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+    │    └ <function BaseProcess.run at 0x1026f2560>
+    └ <SpawnProcess name='SpawnProcess-5' parent=89074 started>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {'config': <uvicorn.config.Config object at 0x102952a70>, 'target': <bound method Server.run of <uvicorn.server.Server object...
+    │    │        │    │        └ <SpawnProcess name='SpawnProcess-5' parent=89074 started>
+    │    │        │    └ ()
+    │    │        └ <SpawnProcess name='SpawnProcess-5' parent=89074 started>
+    │    └ <function subprocess_started at 0x1030cde10>
+    └ <SpawnProcess name='SpawnProcess-5' parent=89074 started>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 78, in subprocess_started
+    target(sockets=sockets)
+    │              └ [<socket.socket fd=3, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000)>]
+    └ <bound method Server.run of <uvicorn.server.Server object at 0x102952ad0>>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ [<socket.socket fd=3, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8000)>]
+           │       │   │    └ <function Server.serve at 0x1030ccee0>
+           │       │   └ <uvicorn.server.Server object at 0x102952ad0>
+           │       └ <function run at 0x1029a8160>
+           └ <module 'asyncio' from '/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/__init__.py'>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+           │    │                  └ <coroutine object Server.serve at 0x1030577d0>
+           │    └ <function BaseEventLoop.run_until_complete at 0x102e1a290>
+           └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+    │    └ <function BaseEventLoop.run_forever at 0x102e1a200>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x102e1bd00>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x102b33520>
+    └ <Handle <TaskStepMethWrapper object at 0x1360731c0>()>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle <TaskStepMethWrapper object at 0x1360731c0>()>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle <TaskStepMethWrapper object at 0x1360731c0>()>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle <TaskStepMethWrapper object at 0x1360731c0>()>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+                   └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x10312d1e0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+                 │    │   │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+                 │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+                 │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+                 │    └ <fastapi.applications.FastAPI object at 0x10312d360>
+                 └ <uvicorn.middleware.proxy_headers.ProxyHeadersMiddleware object at 0x10312d1e0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+                           │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+                           │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+                           └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/applications.py", line 123, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <bound method RequestResponseCycle.send of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x136071720>
+          └ <fastapi.applications.FastAPI object at 0x10312d360>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+          │    │   │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x1360a9900>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x136073670>
+          └ <starlette.middleware.errors.ServerErrorMiddleware object at 0x136071720>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+          │                            │    │    │     │      │        └ <function ServerErrorMiddleware.__call__.<locals>._send at 0x1360a9900>
+          │                            │    │    │     │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │                            │    │    │     └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │                            │    │    └ <starlette.requests.Request object at 0x136072ce0>
+          │                            │    └ <fastapi.routing.APIRouter object at 0x122420fa0>
+          │                            └ <starlette.middleware.exceptions.ExceptionMiddleware object at 0x136073670>
+          └ <function wrap_app_handling_exceptions at 0x1042748b0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1360a95a0>
+          │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          └ <fastapi.routing.APIRouter object at 0x122420fa0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+          │    │                │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1360a95a0>
+          │    │                │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │    │                └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <bound method Router.app of <fastapi.routing.APIRouter object at 0x122420fa0>>
+          └ <fastapi.routing.APIRouter object at 0x122420fa0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+          │     │      │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1360a95a0>
+          │     │      │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │     │      └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │     └ <function Route.handle at 0x104275d80>
+          └ APIRoute(path='/analyze-xray', name='analyze_xray', methods=['POST'])
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+          │    │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1360a95a0>
+          │    │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │    │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │    └ <function request_response.<locals>.app at 0x1360abe20>
+          └ APIRoute(path='/analyze-xray', name='analyze_xray', methods=['POST'])
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+          │                            │    │        │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1360a95a0>
+          │                            │    │        │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │                            │    │        └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          │                            │    └ <starlette.requests.Request object at 0x136073370>
+          │                            └ <function request_response.<locals>.app.<locals>.app at 0x1360a9630>
+          └ <function wrap_app_handling_exceptions at 0x1042748b0>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+          │   │      │        └ <function wrap_app_handling_exceptions.<locals>.wrapped_app.<locals>.sender at 0x1360a9750>
+          │   │      └ <bound method RequestResponseCycle.receive of <uvicorn.protocols.http.h11_impl.RequestResponseCycle object at 0x136073520>>
+          │   └ {'type': 'http', 'asgi': {'version': '3.0', 'spec_version': '2.4'}, 'http_version': '1.1', 'server': ('127.0.0.1', 8000), 'cl...
+          └ <function request_response.<locals>.app.<locals>.app at 0x1360a9630>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/starlette/routing.py", line 74, in app
+    response = await func(request)
+                     │    └ <starlette.requests.Request object at 0x136073370>
+                     └ <function get_request_handler.<locals>.app at 0x1360abd90>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/fastapi/routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                         └ <function run_endpoint_function at 0x104276c20>
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+                 │         │      └ {'req': AnalyzeRequest(xray_id='person16_virus_47', query='Diagnose the Xray')}
+                 │         └ <function analyze_xray at 0x1360a96c0>
+                 └ <fastapi.dependencies.models.Dependant object at 0x1360711e0>
+
+> File "/Users/suryakurapati/Desktop/NCI/NCI-Notes/Domain Applications/Assignment/cxr_cds/app/main.py", line 25, in analyze_xray
+    findings, reasoning = analyzer.analyze(image, query)
+                          │        │       │      └ 'Diagnose the Xray'
+                          │        │       └ <PIL.Image.Image image mode=RGB size=1582x1333 at 0x1360725F0>
+                          │        └ <function AnalyzerService.analyze at 0x135e9a710>
+                          └ <app.services.analyzer.AnalyzerService object at 0x135e5b9a0>
+
+  File "/Users/suryakurapati/Desktop/NCI/NCI-Notes/Domain Applications/Assignment/cxr_cds/app/services/analyzer.py", line 39, in analyze
+    raw = self.vision_model.predict(image)
+          │    │            │       └ <PIL.Image.Image image mode=RGB size=1582x1333 at 0x1360725F0>
+          │    │            └ <function RealVisionModel.predict at 0x132da2290>
+          │    └ <app.models.vision.RealVisionModel object at 0x135e5b5b0>
+          └ <app.services.analyzer.AnalyzerService object at 0x135e5b9a0>
+
+  File "/Users/suryakurapati/Desktop/NCI/NCI-Notes/Domain Applications/Assignment/cxr_cds/app/models/vision.py", line 83, in predict
+    image = Image.open(image_path).convert("RGB")
+            │     │    └ <PIL.Image.Image image mode=RGB size=1582x1333 at 0x1360725F0>
+            │     └ <function open at 0x1048336d0>
+            └ <module 'PIL.Image' from '/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/PIL/Image.py'>
+
+  File "/Applications/anaconda3/envs/consultiq/lib/python3.10/site-packages/PIL/Image.py", line 3256, in open
+    prefix = fp.read(16)
+             └ <PIL.Image.Image image mode=RGB size=1582x1333 at 0x1360725F0>
+
+AttributeError: 'Image' object has no attribute 'read'
+2025-10-20 12:28:38.368 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:28:38.368 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:28:38.514 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:28:38.522 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:28:38.522 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:28:38.522 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:30:33.951 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:30:33.951 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:30:34.150 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:30:34.211 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:30:34.212 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:30:34.212 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:30:44.435 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-20 12:30:44.638 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-20 12:31:04.363 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-20 12:31:04.496 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-20 12:53:00.991 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 12:53:00.991 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 12:53:00.991 | INFO     | app.models.vision:__init__:23 - Initializing DenseNet121 for vision model.
+2025-10-20 12:53:01.160 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 12:53:01.203 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 12:53:01.203 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 12:53:01.203 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
+2025-10-20 12:53:15.379 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-20 12:53:15.526 | INFO     | app.models.vision:predict:55 - Vision model successfully generated predictions.
+2025-10-20 12:53:15.526 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-20 12:53:38.809 | INFO     | app.services.analyzer:analyze:38 - Running vision model prediction.
+2025-10-20 12:53:38.921 | INFO     | app.models.vision:predict:55 - Vision model successfully generated predictions.
+2025-10-20 12:53:38.921 | INFO     | app.services.analyzer:analyze:42 - Generating reasoning via LLM client.
+2025-10-20 13:03:58.457 | INFO     | app.services.analyzer:__init__:13 - Initializing analyzer
+2025-10-20 13:03:58.457 | INFO     | app.services.analyzer:__init__:17 - Using RealVisionModel on device: cpu
+2025-10-20 13:03:58.625 | INFO     | app.db.mongo_client:__init__:16 - Connected to MongoDB database: db_genai
+2025-10-20 13:03:58.661 | INFO     | app.db.mongo_client:fetch_one:26 - Fetched document from col_llm_conf: {'_id': 'openai'}
+2025-10-20 13:03:58.661 | INFO     | app.models.llm_client:_load_config:35 - Loaded LLM config for 'openai' successfully.
+2025-10-20 13:03:58.662 | INFO     | app.services.analyzer:__init__:23 - Loaded LLM configuration from MongoDB for model: gpt-4o-mini
